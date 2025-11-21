@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aura</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LEFT SERVER LIST -->
+  <div class="servers">
+    <div class="server">A</div>
+  </div>
+
+  <!-- CHANNEL LIST -->
+  <div class="channels">
+    <h3>Channels</h3>
+    <div class="channel"># general</div>
+    <div class="channel"># chat</div>
+    <div class="channel"># memes</div>
+  </div>
+
+  <!-- MAIN CHAT -->
+  <div class="chat">
+    <div class="messages" id="messages"><div class="msg">Welcome to Aura!</div></div>
+
+    <div class="input-area">
+      <input type="text" id="msgInput" placeholder="Message Aura..." />
+      <button onclick="sendMsg()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
